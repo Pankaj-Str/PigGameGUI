@@ -1,4 +1,4 @@
-# PigGameGUI
+# Pig Game GUI 
 
 The implementation provided earlier contains the necessary code to save the game history to a text file. The `saveGameHistory()` method is called when one of the players wins the game or when the "Save Game" button is clicked. It appends the game result, date and time, total points, and player information to the `historyRecords` ArrayList. Then, it writes the contents of the `historyRecords` to a text file named "game_history.txt" in the current directory.
 
